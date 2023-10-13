@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_kinawy</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/e475cf53-f221-4690-b8d8-8d047afa41d5/resourceGroups/az-group/providers/microsoft.insights/components/nourhan-mohammed-kinawy</ApplicationInsightsResourceId>
+    <UserSecretsId>cb339f84-89f1-4442-af58-130e173a7e2c</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
