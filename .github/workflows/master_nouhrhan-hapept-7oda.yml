@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'nouhrhan-hapept-7oda'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D55AFE85D757401AB7E9106587914027 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_30027554531A4339BCBA11A5FEE0FAE8 }}
           package: .
